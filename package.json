@@ -1,0 +1,23 @@
+{
+  "name": "markovchain-generate",
+  "version": "1.0.0",
+  "description": "Generate markov chains from text input",
+  "author": "Drew Worthey <drew@drewworthey.com> (http://drewworthey.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zabracks/markovchain-generator.git"
+  },
+  "keywords": [
+    "markov", "chain", "text", "generation", "random"
+  ],
+  "license": "MIT",
+  "main": "lib/markovchain.js",
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src/*"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "dependencies": {
+  }
+}
